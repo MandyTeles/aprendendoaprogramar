@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Florida;
+    src: url(fontes/Florida\ Vibes\ by\ Turbologo.otf) format('opentype');
+}
+
+div{
+    background-color: #483d8b;
+    align-content: center;
+    text-align-last: center;
+}
+
+button{
+    background-color: #6256b3;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    block-size: 42px;
+    transition-duration: 0.2s;
+}
+
+button:hover{
+    background-color: #b29cff;
+    color: #ffffff;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+h1{
+    font-family: 'Florida', serif;
+    font-size: 56px;
+    color: #1d1441;
+    text-align: center;
+}
+
+input{
+    padding: 16px;
+}
