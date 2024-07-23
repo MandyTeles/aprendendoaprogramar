@@ -1,5 +1,9 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@font-face {
+    font-family: Florida;
+    src: url(fontes/Florida\ Vibes\ by\ Turbologo.otf) format('opentype');
+}
+
 
 div{
     background-color: #483d8b;
@@ -29,7 +33,7 @@ a{
 }
 
 h1{
-    font-family: 'Silkscreen', sans-serif;
+    font-family: 'Florida', serif;
     font-size: 56px;
     color: #1d1441;
     text-align: center;
